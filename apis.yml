@@ -1,7 +1,25 @@
 aid: eino
 name: EINO
-description: EINO is a company surfaced as a portfolio company of 500-global, techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: EINO (eino.ai) is an AI-native platform for designing, simulating, validating,
+  and monitoring wireless networks — Wi-Fi, Cellular, DAS, Fixed Wireless, LoRa, IoT,
+  and 5G/LTE. It builds connectivity digital twins that let network providers, systems
+  integrators, and enterprises automate network design (cutting multi-day design cycles
+  to minutes) and run 24/7 agentic monitoring with real-time anomaly detection and
+  root-cause analysis. Founded in 2018 and headquartered in New York City, EINO is
+  backed by 500 Global and Techstars. The company exposes a SaaS web application and
+  a product knowledge base rather than a public developer API.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/699f0f742cb5193877c003a3/69a5a201af4f89e038a62e44_og2.jpg
 url: https://raw.githubusercontent.com/api-evangelist/eino/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +30,19 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Wireless
+- Networking
+- Digital Twin
+- Network Design
+- Network Monitoring
+- Connectivity
+- Artificial Intelligence
+- 5G
+- IoT
+- Telecommunications
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +52,31 @@ maintainers:
 common:
 - type: Website
   url: https://eino.ai
+- type: Documentation
+  url: https://docs.eino.ai
+- type: GettingStarted
+  url: https://docs.eino.ai/knowledge-base/quickstart
+- type: LLMsTxt
+  name: eino Knowledge Base llms.txt
+  url: llms/eino-llms.txt
+- type: Blog
+  url: https://eino.ai/blog
+- type: Pricing
+  url: https://eino.ai/pricing
+- type: SignUp
+  url: https://eino.ai/get-started
+- type: Login
+  url: https://app.eino.ai/
+- type: TermsOfService
+  url: https://eino.ai/terms-of-service
+- type: PrivacyPolicy
+  url: https://eino.ai/privacy-policy
+- type: Support
+  url: mailto:hello@eino.ai
+- type: DomainSecurity
+  url: security/eino-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

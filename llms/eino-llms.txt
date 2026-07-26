@@ -1,0 +1,189 @@
+# eino Knowledge Base
+
+- Get Started
+
+  - **Start Here**
+  - [What is Eino Intelligent Connectivity?](/knowledge-base/eino-platform-overview): Design, simulate, and validate Wi-Fi, Cellular, DAS, Fixed Wireless, and LoRa networks.
+  - [Core Concepts](/knowledge-base/core-concepts): The key ideas behind Eino Intelligent Connectivity: project types, layouts, simulation, validation, and monitoring.
+  - [Product Tour](/knowledge-base/product-tour): A quick map of every major area in eino, what it does and where to find it.
+  - [Video Tutorial Library](/knowledge-base/video-tutorial-library): All eino video guides organized by workflow area, with walkthroughs for every feature in one place.
+  - [Glossary](/knowledge-base/glossary): Definitions for technical terms used across the eino platform and this knowledge base.
+  - [Quickstart: Your First Design](/knowledge-base/quickstart): Go from an empty project to an exported Wi-Fi design in five steps.
+
+  - **Learning Paths**
+  - [Choose Your Workflow](/knowledge-base/choose-your-workflow): A decision guide for picking the right project type, design approach, and learning path before you start in eino.
+  - [Design Your First Wi-Fi Network](/knowledge-base/learning-path-wi-fi): A step-by-step path for new users who want to go from an empty project to a validated, export-ready indoor Wi-Fi design.
+  - [Design Your First Cellular Network](/knowledge-base/learning-path-cellular): A step-by-step path for designing an indoor or outdoor Cellular network in eino, from project setup to export.
+  - [Design Your First DAS Network](/knowledge-base/learning-path-das): A step-by-step path for designing a distributed antenna system in eino, from project setup to export.
+  - [Validate an Existing Deployment](/knowledge-base/learning-path-validation): A step-by-step path for comparing a simulated design against real-world signal data collected on a deployed site.
+  - [Generate a Professional Report](/knowledge-base/learning-path-reports): A step-by-step path for turning a finished eino design into a polished, client-ready report.
+
+  - **Account & Access**
+  - [Sign In to eino](/knowledge-base/sign-in): How to sign in to your eino account using email and password or SSO.
+  - [Set Up Multi-Factor Authentication](/knowledge-base/mfa-setup): How to enable and configure multi-factor authentication on your eino account.
+  - [Reset or Change Password](/knowledge-base/change-your-password): Update your eino login credentials directly from your account settings in a few clicks.
+  - [Manage Your Account Settings](/knowledge-base/account-settings): How to update your name, email, password, and profile information in eino.
+  - [Manage Team Settings](/knowledge-base/team-settings): How to view and edit your team or workspace settings in eino, including team name, billing, and member management.
+  - [Permissions and Collaborator Access](/knowledge-base/permissions-and-collaborators): How roles work in eino and how to manage who can view or edit your projects.
+- Projects
+  - [Dashboard Overview](/knowledge-base/use-the-platform-dashboard): Organize, filter, and manage all your network design projects from a single centralized workspace.
+  - [Create an Indoor Project](/knowledge-base/create-an-indoor-project): Upload floor plans, define scale, and use eino's AI assistant to automatically generate interior walls, dramatically speeding up indoor RF design.
+  - [Create an Outdoor Project](/knowledge-base/create-an-outdoor-project): Define a geographic boundary and let eino's AI automatically populate terrain, buildings, and foliage so your outdoor coverage planning reflects real-world conditions.
+  - [Create a DSM Project](/knowledge-base/create-a-project-using-dsm-files): Import DSM elevation data and a GeoJSON boundary to generate a 3D terrain-backed design environment for outdoor coverage planning.
+  - [Import a Project](/knowledge-base/import-a-project): How to import an existing project into eino using IFC/BIM files or Google Network Planner.
+  - [Project Grid and Kanban Views](/knowledge-base/use-the-kanban-board-in-eino): Visualize your full project pipeline in a drag-and-drop board that updates in real time for every team member.
+  - [Save Multiple Designs in One Project](/knowledge-base/save-multiple-designs-in-one-project): Create and switch between distinct network design layouts inside a single project, so you can compare configurations without duplicating your work.
+  - [Share Projects and Folders](/knowledge-base/share-projects-and-folders): Invite teammates and external collaborators to any project or folder, with control over whether each person can view or edit.
+  - [Archive and Restore Projects](/knowledge-base/archive-restore-projects): How to archive projects you are no longer actively working on and restore them when needed.
+  - [Project Navigation](/knowledge-base/navigating-a-project-and-using-main-functionalities): Master the canvas layout and access every design tool and view control you need to build and analyze your network in eino.
+  - [Project Summary](/knowledge-base/view-the-project-summary): Access a centralized dashboard that shows coverage, capacity, and hardware info for your project, all in one place.
+  - [Indoor Project Workflow Overview](/knowledge-base/indoor-project-workflow-overview): Walk through every stage of an indoor wireless project in eino, from uploading floor plans to generating deployment-ready coverage maps.
+  - [Outdoor Project Workflow Overview](/knowledge-base/outdoor-project-workflow-overview): Understand the end-to-end process for designing and analyzing outdoor wireless networks in eino, from geospatial setup through coverage optimization.
+- Design
+
+  - **Working in the Editor**
+  - [Editor Overview](/knowledge-base/editor-overview): A guide to the five main areas of the eino editor and the tools available when designing a wireless network.
+  - [Indoor vs Outdoor Projects](/knowledge-base/indoor-vs-outdoor-projects): An overview of how indoor and outdoor projects differ in eino, covering the base layer, available tools, and how each project type fits into your workflow.
+  - [Upload Floor Plans](/knowledge-base/upload-floor-plans): Import your building's floor plan into eino so your indoor project reflects the real dimensions and layout of the space you are planning.
+  - [Create and Work with Multi-Floor Projects](/knowledge-base/create-and-work-with-multi-floor-projects): Stack your floor plans vertically to design and simulate multi-storey buildings as a single unified project.
+  - [Geolocation and Maps](/knowledge-base/geolocation-and-maps): How eino uses Google Maps during project creation to position outdoor projects and optionally geo-anchor indoor floor plans to real-world coordinates.
+  - [Measurement Tool](/knowledge-base/use-the-measurement-tool): Measure terrain elevation, object height, and point-to-point clearance to understand RF propagation and line-of-sight conditions at any location in your project.
+  - [Walls](/knowledge-base/add-and-edit-walls): Define wall materials, draw custom layouts, and batch-edit obstructions to model real-world indoor RF performance.
+  - [Doors and Windows](/knowledge-base/add-windows-and-doors): Create, place, and adjust windows and doors in your building design, then visualize them accurately in 3D.
+  - [Obstructions and Materials](/knowledge-base/add-and-manage-obstructions): Model physical obstacles such as buildings, equipment, trees, and shelving to get accurate RF signal propagation predictions in your project.
+  - [Assign Demand Profiles](/knowledge-base/assign-demand-profiles): Apply predefined or custom demand models to network zones to simulate realistic usage and traffic loads for accurate capacity planning.
+  - [Surfaces and Sloped Surfaces](/knowledge-base/add-a-sloped-surface): Model ramps, berms, and other sloped obstructions in your project so ray-traced RF propagation accurately reflects signal attenuation across varying terrain heights.
+  - [Overlay Images](/knowledge-base/add-an-overlay-image): Align floorplans, blueprints, or custom diagrams on top of your background map so your RF design placements match real-world layouts.
+  - [Visibility and Display Settings](/knowledge-base/control-visibility-and-display-settings): Adjust the visibility, size, labels, transparency, and orientation of every component on your design canvas to see exactly what matters in both 2D and 3D.
+  - [Pins](/knowledge-base/add-and-manage-pins): Place individual pins on your project canvas, import and export pin lists via KMZ/KML/GeoJSON files, and edit pin names, colors, and coordinates.
+  - [Floorplan Snap](/knowledge-base/floorplan-snap): Lock wall and stadium drawing onto the walls in your uploaded floorplan image, so your model matches the source plan without manual tracing.
+  - [Point Clouds](/knowledge-base/point-clouds): Import and align a 3D point cloud scan directly on your layout to give your network plan a spatially accurate reference of the physical environment.
+  - [3D Mesh Generator](/knowledge-base/use-the-3d-mesh-generator-in-eino): Create custom 3D RF obstruction meshes from a text description or reference photos, then place and scale them directly in your design.
+  - [Stadium Builder](/knowledge-base/use-the-stadium-builder-in-eino): Model bowl sections, tiered seating, tunnels, and concourses to accurately plan RF coverage for stadiums, arenas, and any venue with complex elevation changes.
+  - [3D Rendering](/knowledge-base/improved-3d-rendering-realistic-indoor-visualizations): View your indoor network designs with realistic building architecture, including walls, doors, windows, and material-specific rendering, so coverage planning and client presentations reflect how your environment actually looks.
+  - [DSM, Terrain, and Foliage](/knowledge-base/use-dsm-digital-surface-model-tools): Adjust tree types, remove vegetation, and edit terrain elevations in an outdoor project using the DSM menu.
+  - [Add Annotations and Team Comments](/knowledge-base/add-annotations-and-team-comments): Leave notes, upload images, and collaborate with teammates directly inside your eino design projects using the annotation tool.
+  - [Modify the Color for Walls, Doors, Windows, Obstructions, and Surfaces](/knowledge-base/modify-colors-for-walls-doors-windows-obstructions-surfaces): Update the color coding for wall types, doors, windows, obstructions, and surfaces so your floor plan is visually clear and consistent across your entire project.
+  - [Use Collaboration Features in eino](/knowledge-base/use-collaboration-features-in-eino): Record screen walkthroughs, share them with teammates, and keep design conversations organized inside your eino projects.
+
+  - **Network Design**
+  - [Network Design Overview](/knowledge-base/network-design-overview): Plan Wi-Fi, cellular, DAS, LoRa, and fixed wireless networks from a shared project model.
+  - [Network Templates](/knowledge-base/network-templates): Use network templates to organize each technology, band, and hardware configuration in a project.
+  - [Bands, Channels, and KPIs](/knowledge-base/bands-channels-and-kpis): An overview of frequency bands, channel assignment, and performance KPIs available across eino project types.
+  - [Client and Demand Profiles](/knowledge-base/client-devices-and-demand-profiles): An overview of how eino models client devices and demand patterns across area types in Wi-Fi and Cellular projects.
+  - [Manually Place APs](/knowledge-base/manually-place-aps-and-plan-a-network): Place APs manually, configure RF settings, and get real-time heatmap feedback as you build out your network design.
+  - [Place APs Using AI](/knowledge-base/place-aps-using-ai): Automatically generate an optimized AP placement plan based on your coverage targets, hardware inventory, and RF design parameters.
+  - [Add and Use Access Points from Inventory](/knowledge-base/add-and-use-access-points-from-inventory): Import and configure your team's pre-defined AP inventory directly inside a network design so placed access points use your real hardware specifications.
+  - [AP and Antenna Settings](/knowledge-base/edit-ap-and-antenna-settings-on-the-canvas): Edit placement, hardware configuration, and antenna parameters for any AP directly from the canvas right panel.
+  - [Color Code and Toggle Access Points](/knowledge-base/color-code-and-toggle-access-points): Customize heatmap color schemes and control layer visibility to read your network plan at a glance.
+  - [Automatic Channel Assignment](/knowledge-base/how-automatic-channel-assignment-works): eino dynamically assigns channels across Wi-Fi, LTE, and 5G based on spectrum availability and your project configuration, so every AP gets an optimal channel without manual planning.
+  - [Antenna Models and Patterns](/knowledge-base/view-antenna-patterns-in-2d-3d): Inspect gain, beamwidth, and band-specific radiation patterns for any antenna model in your project before committing to a sector configuration.
+  - [Import External Antennas](/knowledge-base/import-an-external-antenna): Bring your own antenna radiation patterns into eino by importing a CSV file and assigning it to an access point model.
+  - [Client and UE Settings](/knowledge-base/configure-ue-settings): Adjust receiver parameters so your heatmaps reflect the actual device behavior of the UE you are planning for.
+  - [Cellular Radios](/knowledge-base/add-and-configure-cellular-radios): Build detailed 4G/5G radio templates with carrier aggregation, custom antenna sectors, MIMO settings, and full uplink/downlink control.
+  - [DAS Design](/knowledge-base/design-a-das-network): Build a complete Distributed Antenna System design in eino by adding signal sources, remote units, and passive components, then visualize signal distribution across your floor plan.
+  - [Design a Fixed Wireless Network](/knowledge-base/design-a-fixed-wireless-network): Place transmitters and receivers on your layout, run link analysis, and export results for both Point-to-Point and Point-to-Multipoint fixed wireless designs.
+  - [Point-to-Point Links](/knowledge-base/design-a-point-to-point-link): Configure base stations, place receivers, and analyze RF link performance including RSRP, RSSI, and Fresnel zone clearance.
+  - [IDFs, Risers, Ducting, and Cable Routes](/knowledge-base/add-ducts-manage-cabling-and-define-idfs): Draw ducts, add risers, and automate cabling across multi-floor projects with centralized IDFs and live switch assignments.
+  - [MDU Multi-unit](/knowledge-base/mdu-multi-unit): Turn a multi-unit dwelling floor plan into a placement-ready project, with an access point dropped in every unit, from a single chat flow.
+  - [Bill of Materials](/knowledge-base/view-edit-the-bill-of-material): View, edit, and export a full cost breakdown for every item in your network design layout.
+  - [Compliance Tracking](/knowledge-base/track-compliance-automatically): Instantly calculate what percentage of your coverage area meets RSRP and SINR thresholds, so you can validate designs against network quality standards without manual measurement.
+  - [AP Table](/knowledge-base/ap-table): Review, edit, and bulk-update every access point and DAS component in your project from a single spreadsheet-style popup.
+  - [Summary and Data Panel](/knowledge-base/summary-and-data-panel): The Summary panel gives you a live snapshot of your project's AP count, hardware performance, bill of materials, coverage statistics, and capacity results without leaving your layout.
+  - [Manual WiFi Channel Assignment](/knowledge-base/manual-wifi-channel-assignment): Pin any WiFi access point to a specific channel instead of letting automatic assignment choose it for you.
+- Simulation & Heatmaps
+  - [Heatmaps Overview](/knowledge-base/heatmaps-overview): A guide to running coverage simulations and interpreting heatmap results in eino, from KPI selection to export.
+  - [Heatmap Types and Metrics](/knowledge-base/heatmap-types-and-metrics): How to read the coverage heatmap color scale, switch between signal metrics, and understand which metrics are available for each technology.
+  - [RSSI, RSRP, SINR, RSRQ, and Throughput](/knowledge-base/rssi-rsrp-sinr-rsrq-and-throughput): An explanation of the five core signal metrics in eino, what they measure, and how to use them to interpret heatmap results.
+  - [Run and Refresh Simulations](/knowledge-base/run-and-refresh-simulations): Control when eino recalculates your heatmap and tune the simulation parameters that determine accuracy and speed.
+  - [Customize Heatmap Settings](/knowledge-base/customize-heatmap-settings): Fine-tune ray tracing, interference suppression, fade margin, and grid resolution to get the most accurate coverage heatmap for your network design.
+  - [Change Heatmap Resolution](/knowledge-base/change-heatmap-resolution): Adjust the ray tracing grid resolution to reveal finer RF coverage detail in your heatmap.
+  - [Heatmap Export](/knowledge-base/heatmap-export): Export your active coverage heatmap as a georeferenced GeoTIFF or ESRI Shapefile, carrying the real metric value per cell, ready for ArcGIS or QGIS.
+  - [Save and Compare Heatmaps](/knowledge-base/save-and-compare-heatmaps): Snapshot your coverage at any project stage and compare heatmaps side-by-side to see exactly how design changes affect signal performance.
+  - [Demand Areas](/knowledge-base/demand-areas): Draw demand areas on your layout so eino's AI can place hardware accurately based on where signal is needed and where it is not.
+  - [Analyze Client Performance](/knowledge-base/analyze-client-performance): Place a virtual client receiver anywhere on your floor plan to see signal strength and geometry from every sector at once.
+  - [Capacity Planning](/knowledge-base/capacity-planning): Estimate how many users your network can actually serve, see where it saturates, and compare design options before deployment.
+  - [Use Heatmap/Analysis Areas and Pins](/knowledge-base/use-heatmap-analysis-areas-and-pins): Define custom areas on your project map to scope coverage computations, run targeted analysis, and enrich layouts with pins and imported KML/KMZ data.
+  - [Macro Dominance](/knowledge-base/macro-dominance): See exactly where your indoor network out-serves the outdoor macro cellular signal, so you can defend every part of your floor plan before deployment.
+- Validate & Report
+
+  - **Validation**
+  - [Validation Overview](/knowledge-base/validation-overview): A guide to the Validate tab in eino: comparing live measured signal data against your planned design to confirm coverage and identify gaps.
+  - [Validate Network Design Using Profiles](/knowledge-base/validate-network-design-using-profiles): Use design criteria profiles to check your network design against real-world survey data and pinpoint access points that fall outside your KPI thresholds.
+  - [Import Survey Data](/knowledge-base/import-survey-data): How to import site survey data from a CSV file into an eino project for validation and comparison against your network design.
+  - [Import and Validate Drive Test Data](/knowledge-base/import-and-validate-drive-test-data): Import real-world signal measurements into eino and overlay them on your simulated heatmap to confirm your network design matches field conditions.
+  - [Prepare Qualipoc Project Files](/knowledge-base/prepare-qualipoc-project-files): Export eino layout images and configure SFTP credentials so Qualipoc can collect and upload drive-test measurements against your project floors.
+  - [Dual-band Wi-Fi site survey picker](/knowledge-base/dual-band-wi-fi-walk-test-picker): Choose the exact Wi-Fi band and network your modem locks to during a site survey, with separate 5 GHz and 2.4 GHz scans surfaced side by side.
+
+  - **eino Site Survey**
+  - [eino Site Survey Overview](/knowledge-base/site-survey-overview): A guide to collecting live signal measurements on a deployed network layout using the eino mobile app.
+  - [Start a Site Survey Session](/knowledge-base/start-a-site-survey-session): How to launch an eino Site Survey session to begin collecting live signal measurements from your deployed network onto the canvas.
+  - [Indoor and Outdoor Site Surveys](/knowledge-base/indoor-outdoor-site-surveys): Choose the right survey mode for your project: outdoor surveys use GPS to position every sample automatically, while indoor surveys let you place waypoints on a floor plan for environments where GPS is unavailable.
+  - [View Live Samples](/knowledge-base/view-live-samples): Monitor real-time signal measurements streamed from a mobile device during an active eino Site Survey session, and track them as a live heatmap overlay on the canvas.
+  - [Manage Past Sessions](/knowledge-base/manage-past-sessions): View, reload, and delete completed eino Site Survey sessions for the current floor from the Validate tab.
+  - [Compare Validation Data](/knowledge-base/compare-validation-data): Overlay real survey measurements against your simulated heatmap to reveal where coverage matches predictions and where gaps or anomalies need attention.
+
+  - **Reports**
+  - [Reports Overview](/knowledge-base/reports-overview): The Reports tab lets you generate, customize, and download structured PDF documents that capture your network design, coverage heatmaps, access point inventory, bill of materials, and riser diagrams.
+  - [Generate Custom Reports](/knowledge-base/generate-custom-reports): Configure branding, select layouts, bands, and KPIs to generate polished network planning reports in PDF-ready formats.
+  - [Report Viewer](/knowledge-base/report-viewer): Preview, navigate, and export your generated reports directly in eino without leaving the app.
+  - [Compare Reports](/knowledge-base/compare-reports): Place two saved reports side by side to evaluate coverage, capacity, bill of materials, and heatmap data across different design versions or layouts.
+  - [Export Your Design](/knowledge-base/export-your-design): Export your network design in multiple formats to share with stakeholders, import into GIS tools, or hand off to installation teams.
+  - [Record and Share a Video](/knowledge-base/record-and-share-a-video): Capture your screen as a video and share it with teammates directly from your eino project.
+  - [Layout Reports](/knowledge-base/layout-reports): Generate a printable schematic diagram of your floor plan that shows every device, cable, and structural element placed on each layout, ready for site surveys, installation teams, and project handoffs.
+  - [Capacity Reports](/knowledge-base/capacity-reports): Include Monte Carlo simulation results, AP load, zone diagnostics, and throughput-per-user data in a generated PDF report so stakeholders can review network capacity at a glance.
+  - [Select Layouts, Bands, and KPIs for Reports](/knowledge-base/select-report-bands-and-kpis): Choose which frequency bands and signal quality metrics appear as heatmap pages in a generated eino report.
+  - [Report Page Sizes and Layouts](/knowledge-base/report-page-sizes-and-layouts): Choose between A4, Letter, and Large Format page sizes in the eino report builder to produce a PDF sized for printing or client delivery.
+  - [Export to DWG / iBwave](/knowledge-base/export-to-dwg-ibwave): Export your eino project as a DWG file for use in iBwave, AutoCAD, or any other CAD-based RF design workflow.
+- Monitoring & AI
+
+  - **Monitoring**
+  - [Monitoring Overview](/knowledge-base/monitoring-overview): Connect and manage eino devices, view live network health on the monitoring map, track incidents, and analyze performance with AI-powered insights.
+  - [Monitoring Dashboard](/knowledge-base/monitoring-dashboard): Track live and historical KPI data from your network devices through a grid of configurable chart widgets.
+  - [My Devices](/knowledge-base/my-devices): View and manage every device registered to your account, check connectivity status, and set up provisioned devices from a single page.
+  - [Activate a Device](/knowledge-base/activate-a-device): Walk through the activation wizard to bring a provisioned device online, assign its mode, and connect it to your network in under two minutes.
+  - [Device Modes](/knowledge-base/device-modes): Switch a device between Walk Test and Monitoring modes to control whether it collects active survey data or continuous background telemetry.
+  - [Device Inventory](/knowledge-base/device-inventory): View and manage every device in your team's account, check status and connectivity, and complete setup for provisioned devices.
+  - [Monitoring Map](/knowledge-base/monitoring-map): View live AP and sensor status on your floor plan or satellite map, investigate orbiting incidents, and access device details without leaving the map.
+  - [Dashboard Widgets](/knowledge-base/dashboard-widgets): Add, configure, and manage chart widgets on the monitoring dashboard to track live and historical KPI data from your network devices.
+  - [Incidents](/knowledge-base/incidents): Track and investigate active and resolved network incidents detected across your project's devices, with severity filters and a detail panel for root-cause analysis.
+  - [Device Detail Panels](/knowledge-base/device-detail-panels): Inspect hardware specs, live connection data, playbooks, and AI insights for any access point or sensor on your monitoring map.
+  - [Diagnostics View](/knowledge-base/diagnostics-view): Investigate live and resolved network incidents, manage trigger profiles, and run root-cause analysis from a single project view.
+
+  - **AI Features**
+  - [AI Overview](/knowledge-base/ai-overview): Use AI-powered tools in eino to place APs, generate design elements, analyze network performance, and get answers from a conversational assistant.
+  - [ROM Estimator Chat](/knowledge-base/ai-featurization-chat): Scope a wireless project in minutes through a conversational AI interface that returns AP counts, coverage estimates, and pricing ranges before a floor plan exists.
+  - [AI Layout Generation](/knowledge-base/ai-layout-generation): Generate an optimized AP layout in seconds using a real-world address or a simple site description, giving you a complete coverage starting point before placing a single AP manually.
+  - [AI-Assisted AP Placement](/knowledge-base/ai-assisted-ap-placement): Use the eino AI assistant to automatically place access points on a layout based on your hardware, coverage targets, and design limits.
+  - [Dashboard AI Chat](/knowledge-base/dashboard-ai-chat): Ask questions, run AP estimation workflows, and get AI-driven guidance directly from your dashboard without leaving your current view.
+  - [In-Editor AI Assistant](/knowledge-base/in-editor-ai-assistant): Use AI-powered tools directly in the Design tab to generate walls, obstructions, demand areas, and validate your network design.
+  - [Monitoring Insights](/knowledge-base/monitoring-insights): How to run AI-powered insights on access points and dashboard widgets in the eino Monitoring view.
+
+  - **Mobile App**
+  - [Mobile App Overview](/knowledge-base/mobile-app-overview): Overview of the eino mobile app and what it supports.
+  - [Mobile Site Survey](/knowledge-base/mobile-site-survey): Conduct wireless site surveys directly from your mobile device using the eino mobile app.
+  - [View Live Device Status](/knowledge-base/view-live-device-status): Check the real-time status of your monitored devices from your mobile device.
+  - [Share Projects from Mobile](/knowledge-base/share-projects-from-mobile): Share eino projects and folders with your team directly from the mobile app.
+  - [Manage Devices on Mobile](/knowledge-base/manage-devices-on-mobile): Activate, configure, and manage monitored devices from your mobile device.
+- Reference
+
+  - **Reference**
+  - [KPI Definitions](/knowledge-base/kpi-definitions): Reference table of every KPI available in eino, with units and the project types each one appears on.
+  - [Keyboard Shortcuts](/knowledge-base/keyboard-shortcuts): A complete reference of keyboard shortcuts available in the eino editor, for both Mac and Windows.
+  - [File Formats: Import](/knowledge-base/file-formats-import): A reference table of every file format eino accepts on import, organized by use case.
+  - [File Formats: Export](/knowledge-base/file-formats-export): A reference table of every file format eino can export, what each file contains, and where to find the export option.
+  - [Network Technologies](/knowledge-base/network-technologies): A reference for the five network technologies supported in eino, covering what each is, when to use it, and its key constraints.
+  - [Feature Availability by Project Type](/knowledge-base/feature-availability): A reference table showing which features are available across Wi-Fi, Cellular, LoRa, Fixed Wireless, and DAS projects.
+  - [Hardware Catalog Fields](/knowledge-base/hardware-catalog-fields): Reference for every field in the AP and DAS component configuration panel, organized by tab and technology.
+  - [Antenna Pattern Reference](/knowledge-base/antenna-pattern-reference): Supported file formats and data fields for custom antenna pattern imports in eino.
+  - [Report Field Reference](/knowledge-base/report-field-reference): Field-by-field reference for every section that can appear in an eino PDF or large-format report.
+  - [Slack Integration](/knowledge-base/integrate-slack-with-eino): Connect your Slack workspace to eino so your team receives project share notifications and can reply to eino conversations without leaving Slack.
+
+  - **Troubleshooting**
+  - [Troubleshooting Simulation Results](/knowledge-base/troubleshooting-simulation-results): Common causes and fixes for heatmap display problems, slow simulations, and unexpected results in eino.
+  - [Troubleshooting Import Failures](/knowledge-base/troubleshooting-import-failures): Covers common reasons why file imports fail in eino and how to resolve them.
+  - [Troubleshooting eino Site Survey](/knowledge-base/troubleshooting-site-survey): Common problems that occur during site survey sessions and how to resolve them.
+  - [Troubleshooting Reports and Exports](/knowledge-base/troubleshooting-reports-and-exports): Fixes for common problems with PDF reports, KMZ exports, CSV heatmap exports, and GeoTIFF files in eino.
+  - [Troubleshooting Monitoring Devices](/knowledge-base/troubleshooting-monitoring-devices): Resolve common problems with monitoring device activation, visibility, telemetry, and mode settings in eino.
+  - [Troubleshooting Access and Billing](/knowledge-base/troubleshooting-access-and-billing): Covers common sign-in failures, permission errors, locked features, and unexpected credit or billing states in eino.
+  - [Known Issues](/knowledge-base/known-issues): A running list of confirmed bugs and limitations in eino, with workarounds where available.
