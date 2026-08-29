@@ -8,6 +8,17 @@ description: EINO (eino.ai) is an AI-native platform for designing, simulating, 
   root-cause analysis. Founded in 2018 and headquartered in New York City, EINO is
   backed by 500 Global and Techstars. The company exposes a SaaS web application and
   a product knowledge base rather than a public developer API.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
