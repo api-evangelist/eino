@@ -1,0 +1,34 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.eino.ai/pricing
+sources:
+- https://www.eino.ai/pricing
+- https://eino.ai/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: negotiated
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: false
+note: No numeric prices; all tiers say Contact Sales. Site Survey noted as flat annual add-on, Monitoring
+  as site-based pricing, but no amounts given.
+plan_count: 3
+plans:
+- name: Network Design
+  price_text: Contact Sales
+  period: none
+  included_quota: Unlimited projects, Indoor & Outdoor, AI features, unlimited seats
+- name: Site Survey
+  price_text: Contact Sales
+  period: none
+  included_quota: Add-on to Design; flat annual add-on, device shipped
+- name: Network Monitoring
+  price_text: Contact Sales
+  period: none
+  included_quota: Site-based pricing; continuous monitoring, reasoning agents
